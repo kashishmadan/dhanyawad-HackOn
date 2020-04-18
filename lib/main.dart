@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'dart:async';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 
 void main() => runApp(new MyApp());
 
@@ -54,16 +56,16 @@ class RandomQuotesState extends State<RandomQuotes> {
   }
 
   _getRandomQuote() async {
-    var url = '<FUNCTION_URL>';
+    var url = 'https://us-central1-dhanyawad.cloudfunctions.net/getrandomquote-function';
     var httpClient = new HttpClient();
 
     String result;
     try {
       var request = await httpClient.getUrl(Uri.parse(url));
       var response = await request.close();
-      if (response.statusCode == HttpStatus.OK) {
-        var json = await response.transform(UTF8.decoder).join();
-        var data = JSON.decode(json);
+      if (response.statusCode == HttpStatus.ok) {
+        var json1 = await response.transform(utf8.decoder).join();
+        var data = json.decode(json1);
         result = data['quote'] + "\n-- " + data['person'];
       } else {
         result =
