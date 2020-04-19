@@ -14,8 +14,7 @@ class MyApp extends StatelessWidget {
 
     return new MaterialApp(
       title: 'Famous Quotes',
-      home: //new RandomQuotes(),
-      HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
