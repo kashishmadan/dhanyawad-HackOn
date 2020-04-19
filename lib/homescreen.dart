@@ -254,7 +254,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
             );
                     },
-                    icon: Icon(Icons.star,color: Colors.deepPurple[800],), label: Text('Stay at Home',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.star,color: Colors.deepPurple[800],), label: Text('Travel permission',style: TextStyle(fontSize: 20),))
             ),
           ],
         ),
