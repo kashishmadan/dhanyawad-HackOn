@@ -149,7 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.monetization_on,color: Colors.yellow[900],), label: Text('Flip a Coin',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.monetization_on,color: Colors.yellow[900],), label: Text('Short of clothes',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:150.0,top:10.0,right:20.0,bottom:0.0 ),
@@ -159,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.tag_faces,color: Colors.redAccent,), label: Text('Is It Happy?',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.tag_faces,color: Colors.redAccent,), label: Text('In need of something joyful',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:15.0,top:10.0,right:100.0,bottom:20.0 ),
@@ -169,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.star,color: Colors.deepPurple[800],), label: Text('Used Math Operators',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.star,color: Colors.deepPurple[800],), label: Text('Stay at Home',style: TextStyle(fontSize: 20),))
             ),
           ],
         ),
