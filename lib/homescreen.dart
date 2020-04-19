@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     borderRadius: new BorderRadius.circular(18.0),
                   ),
                   onPressed:(){},
-                  icon: Icon(Icons.flag,color: Colors.orange,), label: Text('French Flag',style: TextStyle(fontSize: 20),),)
+                  icon: Icon(Icons.flag,color: Colors.orange,), label: Text('I need help in Grocery',style: TextStyle(fontSize: 20),),)
             ),
             Padding(
                 padding: const EdgeInsets.only(left:100.0,top:10.0,right:100.0,bottom:20.0 ),
@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.assignment,color: Colors.green[800],), label: Text('How Many Blue?',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.assignment,color: Colors.green[800],), label: Text('Please Contact:',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:200.0,top:10.0,right:5.0,bottom:20.0 ),
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.star,color: Colors.yellowAccent,), label: Text('Used a Function',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.star,color: Colors.yellowAccent,), label: Text('I am feeling lonely',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:20.0,top:10.0,right:100.0,bottom:20.0 ),
@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.linear_scale,color: Colors.red,), label: Text('A Dash of Random',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.linear_scale,color: Colors.red,), label: Text('I need some medicines',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:150.0,top:10.0,right:50.0,bottom:20.0 ),
@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.note_add,color: Colors.purpleAccent,), label: Text('Which Drinks?',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.note_add,color: Colors.purpleAccent,), label: Text('Need help in studies for children ',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:5.0,top:10.0,right:200.0,bottom:20.0 ),
@@ -129,7 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.cake,color: Colors.pink,), label: Text('Bake a Cake',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.cake,color: Colors.pink,), label: Text('Craving for food',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:20.0,top:10.0,right:150.0,bottom:20.0 ),
@@ -139,7 +139,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       borderRadius: new BorderRadius.circular(18.0),
                     ),
                     onPressed:(){},
-                    icon: Icon(Icons.check,color: Colors.green[600]), label: Text('Checkerboard',style: TextStyle(fontSize: 20),))
+                    icon: Icon(Icons.check,color: Colors.green[600]), label: Text('Stationary required',style: TextStyle(fontSize: 20),))
             ),
             Padding(
                 padding: const EdgeInsets.only(left:100.0,top:10.0,right:100.0,bottom:20.0 ),
