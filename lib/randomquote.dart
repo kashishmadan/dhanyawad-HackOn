@@ -20,7 +20,8 @@ class RandomQuotesState extends State<RandomQuotes> {
 
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text('Famous Quotes'),
+          backgroundColor: Colors.green,
+          title: new Text('Why Help? Help, get a Dhanyawad'),
         ),
         body: new Center(
 
@@ -33,6 +34,7 @@ class RandomQuotesState extends State<RandomQuotes> {
                 spacer,
                 spacer,
                 new RaisedButton(
+                  color: Colors.yellowAccent,
                   onPressed: _getRandomQuote,
                   child: new Text('Get a Random Quote'),
                 ),
