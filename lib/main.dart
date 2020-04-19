@@ -1,10 +1,11 @@
 import 'dart:convert';
 import 'dart:async';
 import 'dart:io';
+import 'package:dhanyawad/homescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'randomquote.dart';
-
+import 'homescreen.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
 
     return new MaterialApp(
       title: 'Famous Quotes',
-      home: new RandomQuotes(),
+      home: //new RandomQuotes(),
+      HomeScreen(),
     );
   }
 }
