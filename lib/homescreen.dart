@@ -1,4 +1,6 @@
+import 'package:dhanyawad/randomquote.dart';
 import 'package:flutter/material.dart';
+import 'randomquote.dart';
 //import 'package:gradient_app_bar/gradient_app_bar.dart';
 class HomeScreen extends StatefulWidget {
   @override
@@ -31,19 +33,30 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             ListTile(
-              title: Text('Dashboard',style: TextStyle(fontSize: 25,color: Colors.black),),
-              onTap: (){},
+              title: Text('Why Help?',style: TextStyle(fontSize: 25,color: Colors.black),),
+              onTap: (){
+                Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => RandomQuotes(),
+                  ),
+            );
+              },
             ),
             ListTile(
               title: Text('Messages',style: TextStyle(fontSize: 25,color: Colors.black),),
               onTap: (){},
             ),
             ListTile(
-              title: Text('What is Code?',style: TextStyle(fontSize: 25,color: Colors.black),),
+              title: Text('Return Favour',style: TextStyle(fontSize: 25,color: Colors.black),),
               onTap: (){},
             ),
             ListTile(
-              title: Text('Fundamentals',style: TextStyle(fontSize: 25,color: Colors.black),),
+              title: Text('Social Distancing AR',style: TextStyle(fontSize: 25,color: Colors.black),),
+              onTap: (){},
+            ),
+            ListTile(
+              title: Text('How it Works?',style: TextStyle(fontSize: 25,color: Colors.black),),
               onTap: (){},
             ),
             ListTile(
