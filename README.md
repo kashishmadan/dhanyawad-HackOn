@@ -14,3 +14,12 @@ Do a favor get gratitude points and share with friends to motivate them as well!
 For help getting started with Flutter, view our online [documentation](https://flutter.dev/).
 
 For help on editing plugin code, view the [documentation](https://flutter.dev/docs/development/packages-and-plugins/using-packages#edit-code).
+
+## Project Submission 
+Devfolio [Link](https://devfolio.co/submissions/dhanyawad)
+
+## Created & Maintained By
+[Kashish Madan @kashishmadan](https://github.com/kashishmadan) <br />
+[Tarang Goel @taranggoel](https://github.com/taranggoel) <br />
+[Garvita Singhvi @garvitasinghvi](https://github.com/garvitasinghvi)
+
