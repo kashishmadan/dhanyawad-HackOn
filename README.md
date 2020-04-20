@@ -9,7 +9,8 @@ Abiding by the rules of social distancing and incentivizing community members to
 While completing a favor we protect you by mapping a minimum distance using Augmented Reality to ensure that you abide by the rules of social distancing. 
 Do a favor get gratitude points and share with friends to motivate them as well! 🌟
 
-![screen1](readme-assets/Screenshot_1587315616.png) ![screen2](readme-assets/Screenshot_1587315325.png)
+<img src="readme-assets/Screenshot_1587315616.png" data-canonical-src="" width="200" height="400" />
+<img src="readme-assets/Screenshot_1587315325.png" data-canonical-src="" width="200" height="400" />
 
 ## Getting Started
 
